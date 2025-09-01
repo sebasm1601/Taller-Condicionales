@@ -52,25 +52,27 @@ taller/
 ```
 ## ▶️ Instrucciones de ejecución
 
-Clona este repositorio:
+1. Clona este repositorio:
+```bash
+git clone [https://github.com/usuario/taller-condicionales.git](https://github.com/sebasm1601/Taller-Condicionales/tree/main)
+```
 
-git clone https://github.com/usuario/taller-condicionales.git
-
-
-Accede a la carpeta del proyecto:
-
+2. Accede a la carpeta del proyecto:
+```bash
 cd taller-condicionales
+```
 
-
-Compila el archivo principal:
-
+3. Compila el archivo principal:
+```bash
 g++ main.cpp -o programa
+```
 
-
-Ejecuta el programa:
-
+4. Ejecuta el programa:
+```
 ./programa
-
-Compilar y ejecutar un punto específico
+```
+5. Compilar y ejecutar un punto específico
+```
 g++ src/punto4_cajero_automatico.cpp -o cajero
 ./cajero
+```
